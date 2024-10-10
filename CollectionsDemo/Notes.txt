@@ -1,0 +1,41 @@
+﻿Delegates were introduced in 2.0
+but they are extensively used in every version.
+ie. Lambda---- Func,Action, Predicates
+LINQ(Language Integrated Query)
+
+Func----> return a value,(total parameters=17)total input parameters =16, 1 is output parameters
+Action----> void (total parameters=17 and all are input parameters)
+Predicate----> bool and takes only one parameter as input
+
+
+						Connection
+						String
+Main-----> Utility-----> DAO------->Models
+						Models
+-------------------------------------------------
+Arrays--- similar datatypes
+Collections: 2 types
+1) Non Generics
+2) Generics
+
+Non-Generic---> Stack 
+(Object)
+	int
+	float
+	double
+	string
+	char
+	datetime
+	object  of any class
+
+Generics------> Stack<int>
+
+Generics                  Non Generics
+Stack						Stack
+Queue						Queue
+List						ArrayList
+Dictionary<K,V>					Hashtable
+SortedDictionary<K,V>				-
+SortedList						-
+SortedSet						-
+
